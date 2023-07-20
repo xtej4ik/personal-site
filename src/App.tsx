@@ -1,18 +1,40 @@
-import { useState } from 'react'
-import Footer from './components/layout/footer/Footer'
-import Header from './components/layout/header/Header'
-import Content from './components/layout/content/Content'
+import Footer from "./components/layout/footer/Footer";
+import { Route, RouterProvider, Routes, createBrowserRouter } from "react-router-dom";
+import AboutMe from "./routes/about-me";
+import Projects from "./routes/projects";
+import { Menu } from "./components/menu/menu";
+
+const routes = [{
+  path: "/",
+  displayName: "About Me",
+  element: <AboutMe />,
+},
+{
+  path: "/projects",
+  displayName: "My Projects",
+  element: <Projects />,
+}];
+
+const router = createBrowserRouter(routes);
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
 
   return (
     <>
-    <Header />
-    <Content /> 
-    <Footer />
+      <Menu routes={routes} >
+        <Routes>
+          {routes.map(route => {
+            return (<Route key={route.path} path={route.path} element={route.element} />);
+          })}
+        </Routes>
+        <Footer />
+      </Menu>
     </>
-  )
+  );
 }
 
-export default App
+
+
+export default App;

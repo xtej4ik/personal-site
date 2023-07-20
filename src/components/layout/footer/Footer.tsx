@@ -1,6 +1,6 @@
-import styles from './Footer.module.css';
-import { AiFillGithub } from 'react-icons/ai';
-import { FaFacebookSquare, FaLinkedinIn } from 'react-icons/fa';
+import styles from "./Footer.module.css";
+import { AiFillGithub } from "react-icons/ai";
+import { FaFacebookSquare, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -29,15 +29,15 @@ export default function Footer() {
             </a>
           </li>
           <li>
-              <a
-                href="https://www.facebook.com/inna.savka"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="facebook"
-              >
-                <FaFacebookSquare />
-              </a>
-            </li>
+            <a
+              href="https://www.facebook.com/inna.savka"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="facebook"
+            >
+              <FaFacebookSquare />
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

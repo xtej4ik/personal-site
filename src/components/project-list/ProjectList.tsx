@@ -5,7 +5,8 @@ export default function ProjectList() {
       <details>
         <summary>Motive - Secret Locations App </summary>
         <p>
-          This was my final project in a group and you can see video presentation as well as full description by the link 
+          This was my final project in a group and you can see video
+          presentation as well as full description by the link
           https://northcoders.com/projects/may-2023/motive
         </p>
       </details>
