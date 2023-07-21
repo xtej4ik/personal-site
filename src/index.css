@@ -2,10 +2,11 @@
   font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  text-shadow: .1rem 0rem .1rem rgba(165, 165, 165, 0.596);
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color:black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

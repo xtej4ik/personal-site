@@ -1,3 +1,43 @@
 .page-common {
-    flex-grow: 1;
+}
+
+.page-common section{
+    padding: 1.3rem;
+    border: 1px solid rgba(212, 212, 212, 0.212);
+    margin: 2rem 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    font-size: large;
+    backdrop-filter: blur(0.2rem);
+}
+
+.page-common section h2{
+    text-align: center;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets/bg.webp");
+
+    /* Set a specific height */
+    min-height: 20rem;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-shadow: .1rem .1rem .5rem rgb(158, 129, 33);
+    opacity: 0.9;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
