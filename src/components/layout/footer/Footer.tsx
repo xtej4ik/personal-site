@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaLinkedinIn } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className={styles["footer-container"]}>
-      <p>© {new Date().getFullYear()}, All rights reserved.</p>
+      <p>© {new Date().getFullYear()}, Forged in the fires of distant galaxies.</p>
       <div className={styles["body"]}>
         <ul className={styles["socialIcons"]}>
           <li>
