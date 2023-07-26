@@ -3,10 +3,7 @@
 
 .page-common section {
   padding: 1.3rem;
-  border: 1px solid rgba(212, 212, 212, 0.212);
   margin: 2rem 2rem;
-  border-radius: 5px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
   font-size: large;
 }
 

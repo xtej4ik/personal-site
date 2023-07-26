@@ -3,7 +3,8 @@ import commonStyles from "../common/common.module.css";
 export default function AboutMe() {
   return (
     <div className={commonStyles["page-common"]}>
-      <div className={commonStyles["parallax"]}>About me</div>
+      <div className={commonStyles["parallax"]}>Hi, I'm Inna!</div>
+
       <div className={commonStyles["parallax-second-image"]}>
         <section>
           <h2>Welcome to My Portfolio!</h2>
