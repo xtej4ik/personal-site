@@ -1,4 +1,4 @@
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
 import commonStyles from "../common/common.module.css";
 export default function AboutMe() {
   return (

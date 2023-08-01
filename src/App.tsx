@@ -1,5 +1,5 @@
 import Footer from "./components/layout/footer/Footer";
-import { Route, RouterProvider, Routes, createBrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import AboutMe from "./routes/about-me";
 import Projects from "./routes/projects";
 import { Menu } from "./components/menu/menu";
@@ -14,8 +14,6 @@ const routes = [{
   displayName: "My Projects",
   element: <Projects />,
 }];
-
-const router = createBrowserRouter(routes);
 
 function App() {
 

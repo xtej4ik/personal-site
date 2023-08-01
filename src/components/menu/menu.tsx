@@ -1,6 +1,6 @@
 import { ReactElement, useState } from 'react';
 import styles from './menu.module.css';
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 interface MenuProps {
     routes: NavRoute[],
@@ -40,7 +40,7 @@ export function Menu({ routes, children }: MenuProps) {
                 <nav className={styles['nav']}>
                     {htmlLinks}
 
-                        <svg onClick={toggleSideMenu} className={styles['nav-toggle-button']} width="35" height="35" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="butt" strokeLinejoin="arcs">
+                        <svg onClick={toggleSideMenu} className={styles['nav-toggle-button']} width="35" height="35" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <line x1="3" y1="12" x2="21" y2="12"></line>
                             <line x1="3" y1="6" x2="21" y2="6"></line>
                             <line x1="3" y1="18" x2="21" y2="18"></line>
