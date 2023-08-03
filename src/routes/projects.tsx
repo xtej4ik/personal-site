@@ -4,9 +4,8 @@ export default function Projects() {
   return (
     <div className={commonStyles["page-common"]}>
       <section>
-      <h2>Projects.</h2>
+        <h2>Projects.</h2>
       </section>
-     
 
       <section>
         <h3>Backend News API</h3>
@@ -18,7 +17,7 @@ export default function Projects() {
           >
             Live Demo
           </a>
-          <br/>
+          <br />
           <a
             href="https://github.com/xtej4ik/BE-NC-NEWS-PROJECT"
             target="_blank"
@@ -39,7 +38,7 @@ export default function Projects() {
           >
             Live Demo
           </a>
-          <br/>
+          <br />
           <a
             href="https://github.com/xtej4ik/nc-news"
             target="_blank"
