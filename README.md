@@ -47,3 +47,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+4. Witness the galactic spectacle unfold at `http://localhost:3000`.
+
+---
+
+Embark on this celestial odyssey and let the cosmic web unveil the magic and passion behind this stellar portfolio. As you explore the celestial projects and journey, may the stars guide you to infinite possibilities! 🌌🚀✨
