@@ -1,18 +1,24 @@
-import Footer from "./components/layout/footer/Footer";
 import { Route, Routes } from "react-router-dom";
+import { Menu } from "./components/menu/menu";
+import Footer from "./components/layout/footer/Footer";
 import AboutMe from "./routes/about-me";
 import Projects from "./routes/projects";
-import { Menu } from "./components/menu/menu";
+import Contact from "./routes/contact";
 
 const routes = [{
-  path: "/",
-  displayName: "About Me",
-  element: <AboutMe />,
+  path: "/contact",
+  displayName: "Contact Me",
+  element: <Contact />,
 },
 {
   path: "/projects",
   displayName: "My Projects",
   element: <Projects />,
+},
+{
+  path: "/",
+  displayName: "About Me",
+  element: <AboutMe />,
 }];
 
 function App() {
@@ -27,6 +33,7 @@ function App() {
             return (<Route key={route.path} path={route.path} element={route.element} />);
           })}
         </Routes>
+        <Projects />
         <Footer />
       </Menu>
     </>
